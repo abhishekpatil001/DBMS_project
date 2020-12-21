@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container h2,p{
+    text-align: center;
+    font-size: 32px;
+}
+
+input,textarea{
+  
+    border-radius: 7px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+
+}
+p{
+    font-size: 25px;
+}
+h1{
+    color: rgb(190, 14, 14);
+    font-size: 40px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background-color: #c43f3f;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+    width:auto;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+.bb{
+    text-align: right;
+}
+.btn2{
+    
+    border: 2px solid black;
+    cursor: pointer;
+    width:55px;
+    font-size: 18px; 
+
+}

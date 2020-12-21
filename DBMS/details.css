@@ -1,0 +1,54 @@
+
+.container{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(129, 129, 255);
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 4px rgb(247, 236, 236);
+    margin-top: 0px;
+}
+.container h1{
+    font-size: 45px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+ 
+}
+table{
+    width: auto;
+    border: 1px black;
+   border-style: double;
+   border-collapse: collapse;
+}
+td{
+    border: 2px solid;
+    border-collapse: collapse;
+   
+}
+.footer{
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: rgb(159 158 162);
+    text-align: center;
+}
+
+.btns{
+    text-align: right;
+}
+.logo{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-attachment: fixed;
+    
+
+}
+.btn{
+    font-size: 20px;
+    cursor: pointer;
+}
